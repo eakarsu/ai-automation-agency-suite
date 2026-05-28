@@ -10,6 +10,26 @@ export type SourceDashboardAction = {
 
 export const sourceDashboardActions: SourceDashboardAction[] = [
   {
+    "id": "agency-delivery-operations",
+    "label": "Agency Delivery Operations",
+    "description": "Open Agency Delivery Operations workflows inside this existing merged suite.",
+    "href": "/client-intake",
+    "sourceProjects": [
+      "AiBusinessAutomation",
+      "ai_business_business_automation",
+      "AIWorkflowCapture",
+      "AIAuditWorkpaperAutomation"
+    ],
+    "examples": [
+      "Client Intake",
+      "Automation Blueprints",
+      "Proposal Builder",
+      "Delivery Tracker",
+      "ROI Reporting"
+    ],
+    "count": 5
+  },
+  {
     "id": "chatbot-builder",
     "label": "Chatbot Builder",
     "description": "Chatbot Builder actions optimized from donor dashboards and exposed as one AI Automation Agency action group.",

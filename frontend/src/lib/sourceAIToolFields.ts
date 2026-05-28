@@ -10,6 +10,60 @@ export type SourceAIToolField = {
 };
 
 export const sourceAIToolFieldsByToolId: Record<string, SourceAIToolField[]> = {
+  "agency-delivery-operations-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the Agency Delivery Operations workflow and produce a decision-ready output.",
+      "placeholder": "Describe the goal, customer, case, or decision needed",
+      "options": [],
+      "required": true,
+      "source": "AiBusinessAutomation, ai_business_business_automation, AIWorkflowCapture, AIAuditWorkpaperAutomation"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste records, documents, transcript text, metrics, case notes, or source details for Agency Delivery Operations.",
+      "placeholder": "Paste the source context to analyze",
+      "options": [],
+      "required": true,
+      "source": "AiBusinessAutomation, ai_business_business_automation, AIWorkflowCapture, AIAuditWorkpaperAutomation"
+    },
+    {
+      "name": "workflow_focus",
+      "label": "Workflow Focus",
+      "type": "select",
+      "defaultValue": "Client Intake",
+      "placeholder": "Select the workflow",
+      "options": [
+        "Client Intake",
+        "Automation Blueprints",
+        "Proposal Builder",
+        "Delivery Tracker",
+        "ROI Reporting"
+      ],
+      "required": true,
+      "source": "AiBusinessAutomation, ai_business_business_automation, AIWorkflowCapture, AIAuditWorkpaperAutomation"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Professional action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Professional action plan",
+        "Evidence table",
+        "Risk review",
+        "Checklist",
+        "Executive summary"
+      ],
+      "required": true,
+      "source": "AiBusinessAutomation, ai_business_business_automation, AIWorkflowCapture, AIAuditWorkpaperAutomation"
+    }
+  ],
   "chatbot-builder-source-workflow": [
     {
       "name": "objective",

@@ -16,3 +16,15 @@
 | AI Tools | Intelligence Layer | Per-feature AI tools and source-workflow request forms |
 | Documents | Core Platform | Uploads, exports, attachments |
 | Source Tables | Core Platform | Donor schema/table inventory and seeded editable rows |
+
+## Agency Delivery Operations
+
+- `client-intake` - Client Intake: Client goals, business context, access needs, stakeholder notes, qualification status, and intake readiness.
+- `automation-blueprints` - Automation Blueprints: Process maps, trigger conditions, data sources, tools, handoffs, and automation build plan.
+- `proposal-builder` - Proposal Builder: Scope, assumptions, pricing, milestones, implementation risks, and client-ready proposal output.
+- `delivery-tracker` - Delivery Tracker: Build tasks, owners, dependencies, QA status, launch blockers, and client acceptance evidence.
+- `roi-reporting` - ROI Reporting: Time saved, cost impact, usage metrics, before/after baseline, and executive reporting.
+
+## Priority current app enhancement: Agency Delivery Operations
+
+Source evidence: AiBusinessAutomation, ai_business_business_automation, AIWorkflowCapture, AIAuditWorkpaperAutomation.

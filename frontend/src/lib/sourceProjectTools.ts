@@ -1,5 +1,21 @@
 export const sourceProjectTools = [
   {
+    "id": "agency-delivery-operations-copilot",
+    "title": "Agency Delivery Operations Copilot",
+    "category": "Agency Delivery Operations",
+    "description": "AI tool for Agency Delivery Operations inside the existing merged suite.",
+    "defaultPrompt": "Review the Agency Delivery Operations context. Return workflow summary, risks, missing information, recommended actions, owner assignments, and audit-ready output.",
+    "inputLabel": "Agency Delivery Operations context",
+    "outputLabel": "Agency Delivery Operations AI response",
+    "signals": [
+      "Client Intake",
+      "Automation Blueprints",
+      "Proposal Builder",
+      "Delivery Tracker",
+      "ROI Reporting"
+    ]
+  },
+  {
     "id": "chatbot-builder-source-workflow",
     "title": "Chatbot Builder Source Workflow",
     "category": "Automation Delivery",

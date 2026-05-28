@@ -20,3 +20,13 @@
 | /documents | Documents workspace |
 | /source-tables | Source table inventory and rows |
 | /profiles | User and role settings |
+
+- `/client-intake`
+
+- `/automation-blueprints`
+
+- `/proposal-builder`
+
+- `/delivery-tracker`
+
+- `/roi-reporting`

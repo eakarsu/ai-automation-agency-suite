@@ -12,3 +12,6 @@
 | aIVoiceAgent | 12 | 8 | 1 | 2 | Automation Templates<br>Deployments<br>AI tools<br>Source tables<br>Dashboard actions |
 | AiCustomerSupportAgent | 12 | 8 | 1 | 2 | Deployments<br>Analytics<br>AI tools<br>Source tables<br>Dashboard actions |
 | homeServices_salesforce | 12 | 8 | 1 | 2 | Analytics<br>Chatbot Builder<br>AI tools<br>Source tables<br>Dashboard actions |
+| ai_business_business_automation | 0 | 0 | 0 | 1 | Client Intake<br>Automation Blueprints<br>Proposal Builder<br>Delivery Tracker<br>ROI Reporting |
+| AIWorkflowCapture | 0 | 0 | 0 | 1 | Client Intake<br>Automation Blueprints<br>Proposal Builder<br>Delivery Tracker<br>ROI Reporting |
+| AIAuditWorkpaperAutomation | 0 | 0 | 0 | 1 | Client Intake<br>Automation Blueprints<br>Proposal Builder<br>Delivery Tracker<br>ROI Reporting |

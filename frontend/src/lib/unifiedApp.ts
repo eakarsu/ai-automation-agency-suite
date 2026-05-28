@@ -239,6 +239,76 @@ const features = [
       { label: 'Updated', value: "45", note: 'This week' },
     ],
   },
+  {
+    slug: "client-intake",
+    title: "Client Intake",
+    href: "/client-intake",
+    category: "Agency Delivery Operations",
+    icon: Workflow,
+    summary: "Client goals, business context, access needs, stakeholder notes, qualification status, and intake readiness.",
+    bullets: ["Operational workspace","AI assisted review","Audit-ready output"],
+    metrics: [
+      { label: "Client Intake", value: "38", note: 'Active items' },
+      { label: 'Exceptions', value: "4", note: 'Need review' },
+      { label: 'Due Soon', value: "7", note: 'Next 14 days' },
+    ],
+  },
+  {
+    slug: "automation-blueprints",
+    title: "Automation Blueprints",
+    href: "/automation-blueprints",
+    category: "Agency Delivery Operations",
+    icon: Workflow,
+    summary: "Process maps, trigger conditions, data sources, tools, handoffs, and automation build plan.",
+    bullets: ["Operational workspace","AI assisted review","Audit-ready output"],
+    metrics: [
+      { label: "Automation Blueprints", value: "49", note: 'Active items' },
+      { label: 'Exceptions', value: "5", note: 'Need review' },
+      { label: 'Due Soon', value: "8", note: 'Next 14 days' },
+    ],
+  },
+  {
+    slug: "proposal-builder",
+    title: "Proposal Builder",
+    href: "/proposal-builder",
+    category: "Agency Delivery Operations",
+    icon: Workflow,
+    summary: "Scope, assumptions, pricing, milestones, implementation risks, and client-ready proposal output.",
+    bullets: ["Operational workspace","AI assisted review","Audit-ready output"],
+    metrics: [
+      { label: "Proposal Builder", value: "60", note: 'Active items' },
+      { label: 'Exceptions', value: "6", note: 'Need review' },
+      { label: 'Due Soon', value: "9", note: 'Next 14 days' },
+    ],
+  },
+  {
+    slug: "delivery-tracker",
+    title: "Delivery Tracker",
+    href: "/delivery-tracker",
+    category: "Agency Delivery Operations",
+    icon: Workflow,
+    summary: "Build tasks, owners, dependencies, QA status, launch blockers, and client acceptance evidence.",
+    bullets: ["Operational workspace","AI assisted review","Audit-ready output"],
+    metrics: [
+      { label: "Delivery Tracker", value: "71", note: 'Active items' },
+      { label: 'Exceptions', value: "7", note: 'Need review' },
+      { label: 'Due Soon', value: "10", note: 'Next 14 days' },
+    ],
+  },
+  {
+    slug: "roi-reporting",
+    title: "ROI Reporting",
+    href: "/roi-reporting",
+    category: "Agency Delivery Operations",
+    icon: Workflow,
+    summary: "Time saved, cost impact, usage metrics, before/after baseline, and executive reporting.",
+    bullets: ["Operational workspace","AI assisted review","Audit-ready output"],
+    metrics: [
+      { label: "ROI Reporting", value: "82", note: 'Active items' },
+      { label: 'Exceptions', value: "8", note: 'Need review' },
+      { label: 'Due Soon', value: "11", note: 'Next 14 days' },
+    ],
+  },
 ] as const;
 
 const aiFeatures = [
@@ -286,6 +356,7 @@ export const featureNav: NavItem[] = allFeatures.map((feature) => ({ label: feat
 export const featureCatalog: FeatureDefinition[] = allFeatures.map((feature) => ({ title: feature.title, href: feature.href, category: feature.category, summary: feature.summary, bullets: [...feature.bullets] }));
 
 export const featureFamilies = [
+  { name: "Agency Delivery Operations", features: ["Client Intake","Automation Blueprints","Proposal Builder","Delivery Tracker","ROI Reporting"] },
   {
     "name": "Automation Delivery",
     "features": [

@@ -8,3 +8,5 @@
 - WhatsApp/SMS Assistants operating view
 - Client Workspaces operating view
 - Automation Templates operating view
+
+- Agency Delivery Operations operating view
